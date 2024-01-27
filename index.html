@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxicons.min.css">
+    <script src="script.js"></script>
+    <title>Akash's Portfolio</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="" class="logo">Portfolio</a>
+
+        <box-icon name='menu' id="menu-icon"></box-icon>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design-->
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Akash Maurya</h1>
+            <h3>I'm a Java <span>Full Stack Developer</span></h3>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, labore.</p> -->
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/akashgeek/" title="linkedin" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/konfiker-kido" title="GitHub" target="_blank"><i
+                        class='bx bxl-github'></i></a>
+
+                <a href="https://leetcode.com/akash99_official/" title="leetcode" target="_blank"><img
+                        src="leetcode.png" id="leetcode" alt=""></a>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1jTUg7vTgnHGFv2eBhXzEo3q89bYVKQxs?usp=drive_link"
+                class="btn" target=”_blank”>Download CV</a>
+        </div>
+        <div class="home-image">
+            <img src="akash1.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about-photo.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <p>Hello! I'm Akash Maurya, a Full Stack Java Developer passionate about crafting innovative solutions. With
+                expertise in Java across the full stack, I specialize in Spring, Hibernate, JSP, and React. I thrive on
+                solving complex problems and collaborating with diverse teams to deliver impactful projects. Let's
+                connect and explore opportunities to create meaningful technology solutions together!
+            <p id="dots"></p>
+            <p id="more">
+                <span>Professional Journey:<br></span>
+                I've journeyed through software development, mastering Java across the full stack. I
+                design scalable backend systems with Spring and Hibernate, and create immersive frontend experiences
+                using JSP and React. I'm dedicated to building end-to-end solutions that empower businesses and
+                delight users.<br>
+
+                <span><br>Let's Connect:<br></span>
+                I'm excited about the opportunity to connect with like-minded professionals, explore new challenges, and
+                contribute to impactful projects that shape the future of technology. If you're passionate about
+                innovation and growth, I'd love to connect and explore how we can collaborate to turn ideas into
+                reality.
+            </p>
+            </p>
+            <button onclick="readMore()" class="btn" id="myBtn">Read more</button>
+        </div>
+    </section>
+
+    <!-- Education section  -->
+
+    <section class="education container" id="education">
+        <h2 class="heading">My <span>Journey</span> </h2>
+        <div class="education-top-box">
+            <div class="education-row">
+                <div class="education-col">
+                    <h3 class="title">Education</h3>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2021-2023</div>
+                                <h3>Master of Computer Application<br> ( MCA )</h3>
+                                <p id="institute">Lovely Professional University, Punjab</p>
+                                <p> Overall CGPA: 8.2</p>
+                            </div>
+                        </div>
+
+
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2017-2020</div>
+                                <h3>Bachelor of Computer Application ( BCA )</h3>
+                                <p id="institute">Swami Vivekanand Subharti University </p>
+                                <p> Percentage : 67.7 % </p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2017-2020</div>
+                                <h3>Intermediate</h3>
+                                <p id="institute">L S L I College </p>
+                                <p> Percentage : 84.4 % </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="education-row">
+                <div class="education-col">
+                    <h3 class="title">Experience</h3>
+
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2023-2024</div>
+                                <h3>Full Stack Java Developer Training</h3>
+                                <p id="institute">Excelr Hyderabad</p>
+                                <p> Duration: 9 months</p>
+                                <p> Completion Year: 2024</p>
+
+
+                                <p id="customForEdu">During my 9-month Full Stack Java Developer training at Excelr
+                                    Hyderabad, I immersed
+                                    myself in comprehensive coursework and practical projects aimed at mastering the
+                                    Java stack. The intensive program equipped me with hands-on experience in backend
+                                    development with Spring and Hibernate, frontend development with JSP and React, and
+                                    proficiency in SQL databases. Through this training, I honed my skills in building
+                                    end-to-end solutions and gained valuable insights into the latest trends and
+                                    technologies in Java development.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills </h2>
+        <div class="skills-contents">
+            <div class="skill-icons">
+                <i class='bx bxl-spring-boot bx-spin bx-lg bx-border-circle'></i>
+                Spring Boot
+            </div>
+            <div class="skill-icons">
+                <i class='bx bxl-html5 bx-burst bx-lg bx-border-circle'></i>
+                HTML
+            </div>
+            <div class="skill-icons">
+                <i class='bx bxl-tailwind-css bx-tada bx-lg bx-border-circle'></i>
+                Tailwind-CSS
+            </div>
+            <div class="skill-icons">
+                <i class='bx bxl-bootstrap bx-flashing bx-lg bx-border-circle'></i>
+                Bootstrap
+            </div>
+            <div class="skill-icons">
+                <i class='bx bxl-java bx-fade-up bx-lg bx-border-circle'></i>
+                Java
+            </div>
+            <div class="skill-icons">
+                <i class='bx bxl-javascript bx-burst bx-lg bx-border-circle'></i>
+                JavaScript
+            </div>
+            <div class="skill-icons">
+                <i class='bx bxl-css3 bx-tada bx-lg bx-border-circle'></i>
+                CSS
+            </div>
+            <div class="skill-icons">
+                <i class='bx bxs-data bx-fade-down bx-lg bx-border-circle'></i>
+                MySQL
+            </div>
+            <div class="skill-icons">
+                <i class='bx bxl-react bx-spin bx-lg bx-border-circle'></i>
+                React
+            </div>
+            <div class="skill-icons">
+                <i class='bx bxl-c-plus-plus bx-tada bx-lg bx-border-circle'></i>
+                C++
+            </div>
+        </div>
+        <h1>Version Controls</h1>
+        <div class="skills-contents">
+            <div class="skill-icons">
+                <i class='bx bxl-git bx-tada bx-lg bx-border-circle'></i>
+                Git
+            </div>
+            <div class="skill-icons">
+                <i class='bx bxl-github bx-spin bx-lg bx-border-circle'></i>
+                GitHub
+            </div>
+        </div>
+        <h1>Development Tools</h1>
+        <div class="skills-contents">
+            <div class="skill-icons">
+                <i class='bx bxl-visual-studio bx-burst bx-lg bx-border-circle'></i>
+                VsCode
+            </div>
+            <div class="skill-icons">
+                <i class='bx bx-code-alt bx-fade-left bx-lg bx-border-circle'></i>
+                STS
+            </div>
+            <div class="skill-icons">
+                <i class='bx bx-code bx-fade-right bx-lg bx-border-circle'></i>
+                Eclipse
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section">
+        <h2 class="heading">Projects </h2>
+        <div class="projects-container">
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+
+        </div>
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
